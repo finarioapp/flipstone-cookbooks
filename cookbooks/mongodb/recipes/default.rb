@@ -10,7 +10,7 @@ aws = data_bag_item("aws", "main")
 
 # dependencies for mongo
 SERIES1 = ["tcsh", "git-core", "scons", "g++"]
-SERIES2 = ["libpcre++-dev", "libboost-dev", "libreadline-dev", "xulrunner-1.9.2-dev"]
+SERIES2 = ["libpcre++-dev", "libboost-dev", "libreadline-dev", "firefox-dev"]
 SERIES3 = ["libboost-program-options-dev", "libboost-thread-dev", "libboost-filesystem-dev", "libboost-date-time-dev"]
 
 [SERIES1, SERIES2, SERIES3].each do |series| 
